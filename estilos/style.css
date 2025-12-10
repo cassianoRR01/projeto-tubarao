@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: awakenning;
-    src: url(fontes/AWAKENNING\ Personal\ Use.ttf) format('truetype');
+    src: url(../fontes/AWAKENNING\ Personal\ Use.ttf) format('truetype');
 }
 
 :root {
@@ -20,7 +20,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: var(--cor3);
-    background-image: url(imagens/fundo-mar-att.jpg);
+    background-image: url(../imagens/fundo-mar-att.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
