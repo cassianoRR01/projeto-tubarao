@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: awakenning;
+    src: url(fontes/AWAKENNING\ Personal\ Use.ttf) format('truetype');
+}
+
+:root {
+    --cor1: #787B94;
+    --cor2: #3B3F61;
+    --cor3: #9DA1C7;
+    --cor4: #151833;
+    --cor5: #0B0F33;
+    --fonte1: Arial, sans-serif;
+    --fonte2: awakenning, sans-serif;
+}
+
+body {
+    font-family: var(--fonte1);
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--cor3);
+    background-image: url(imagens/fundo-mar-att.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: var(--cor2);   
+    width: 94.5vw;
+    height: 100px;
+    padding: 30px;
+    margin-bottom: 0px;
+}
+
+header h1 {
+    font-family: var(--fonte2);
+    font-weight: normal;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+
+main h1 {
+    margin-top: 0px;
+    padding: 22px;
+    text-indent: 40px;
+    font-family: var(--fonte2);
+    font-weight: normal;
+    font-size: 2.5em;
+}
+
+main {
+    background-color: var(--cor3);
+    width: 800px;
+    margin: auto;
+}
+
+article.tub {
+    margin: 64px;
+    padding: 10px;
+    width: 250px;
+    height: 440px;
+    display: inline-block;
+    background-color: var(--cor4);
+    color: white;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    width: 98.8vw;
+    margin-top: 0px;
+    margin-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer a:hover {
+    color: var(--cor3);
+}
