@@ -73,7 +73,6 @@ section {
 article {
     color: white;
     background-color: var(--cor2);
-    display: inline-block;
     padding: 40px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -92,6 +91,7 @@ div.info {
 }
 
 footer {
+    width: ;
     background-color: #3B3F61;
     height: 40px;
     text-align: center;
@@ -107,4 +107,9 @@ footer a {
     font-weight: bold;
     text-decoration: none;
     color: var(--cor3);
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
 }

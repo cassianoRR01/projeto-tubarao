@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+
+    body {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    header {
+        flex: initial;
+        width: 100vw;
+    }
+
+    
+
+    section {
+        flex: initial;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+    }
+
+    footer {
+        flex: initial;
+        width: 100vw;
+    }
+
+
+
+    
+}
