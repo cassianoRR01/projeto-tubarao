@@ -63,6 +63,8 @@ main h1 {
 
 section {
     background-color: var(--cor3);
+    background-image: url(../imagens/shark-icon.png);
+    background: var(--cor3) url(../imagens/shark-icons.png) repeat center center fixed;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
